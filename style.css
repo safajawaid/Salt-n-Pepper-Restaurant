@@ -1,0 +1,686 @@
+@font-face {
+    font-family: futurak;
+    src: url(fonts/futurak.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    margin: 0px 40px 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+.navbar button {
+    padding: 12px 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 15px;
+    
+}
+
+.btn-2 {
+    background-color: red !important;
+    border-color: red !important;
+
+}
+
+.btn-2 img {
+    width: 16px;
+}
+
+.sec-img img {
+    width: -webkit-fill-available;
+}
+
+.para-1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.para-1 span {
+    font-family: futurak;
+}
+
+.para-2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.pic {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pic img {
+    margin: 0 20px;
+}
+
+.picimg-1 img {
+    margin-bottom: 25px;
+    height: 170px;
+    width: 250px;
+}
+
+.imagebtn {
+    border: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 40px 12px 40px;
+    margin: 25px 0;
+    background-color: transparent;
+    color: white !important;
+    text-decoration: none;
+
+}
+
+.frenchise-div {
+    padding: 70px;
+    background-color: rgba(255, 255, 255, 0.06);
+    position: relative;
+    margin-top: 150px;
+}
+
+.bg-img {
+    right: 32px;
+    top: 32px;
+    position: absolute;
+}
+
+.heading {
+    line-height: 5px;
+    font-size: 60px;
+
+}
+
+h1 {
+    font-family: futurak;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.left {
+
+    margin-top: 70px;
+}
+
+.left span {
+    letter-spacing: 10px;
+    color: red;
+
+}
+
+.bold span {
+    font-family: futurak;
+    color: white;
+    font-size: 40px;
+    letter-spacing: normal;
+
+}
+
+/* p {
+    color: white;
+    font-size: 40px;
+} */
+
+.map-marker {
+
+    width: 30px;
+
+}
+
+.left {
+    color: white;
+    font-size: 20px;
+
+}
+
+.phone {
+    width: 30px;
+
+}
+
+.number {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.direction-button1 {
+
+    border: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.direction-button1 img {
+    width: 20px;
+    margin: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+
+}
+
+.left {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about {
+    width: 50%;
+    text-align: left;
+}
+
+.img1 {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.img2 {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.about2 span {
+    letter-spacing: 10px;
+    color: red;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.bold span {
+    font-family: futurak;
+    color: white;
+    font-size: 40px;
+    letter-spacing: normal;
+}
+
+.about2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 150px;
+
+}
+
+.map-marker {
+
+    width: 30px;
+
+}
+
+.phone {
+    width: 30px;
+
+}
+
+.number {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.maindiv1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.maindiv1 {
+
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+.about3 span {
+    letter-spacing: 10px;
+    color: red;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.bold span {
+    font-family: futurak;
+    color: white !important;
+    font-size: 30px;
+    letter-spacing: normal !important;
+
+}
+
+.about3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.direction-button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.maindiv2 {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.img3 {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.snp {
+    padding: 70px;
+    background-color: black;
+    position: relative;
+    margin-top: 50px;
+}
+
+.background-img2 {
+    left: 32px;
+    top: 32px;
+    position: absolute;
+}
+
+.mainheading span {
+    font-family: futurak;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.mainheading h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.image1 {
+    width: 33.33%;
+}
+
+.image1 span {
+    letter-spacing: 10px;
+    color: red;
+    font-size: 20 px;
+    text-align: center;
+}
+
+.map-marker {
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.images {
+    color: white;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mall-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mall-p2{
+    justify-content: left;
+}
+.image1 p {
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+
+.mall-btn {
+
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.mall-content {
+    text-align: center;
+    margin-top: 20px;
+}
+.mall-content2{
+    text-align: left;
+}
+.village {
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.franchise span {
+    font-family: futurak;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.franchise h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mall-content span {
+    color: red;
+    letter-spacing: 10px;
+    text-align: left;
+
+}
+
+.village {
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.village .mall-btn {
+    background-color: green;
+    margin-left:20px;}
+
+.picontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.maincard {
+    background-color: white;
+    width: 33%;
+    height: 270px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+
+.card img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 40px;
+    padding-top: 20px;
+}
+
+.card span {
+    color: red;
+    letter-spacing: 10px;
+    padding-left: 50px;
+}
+
+.card strong {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.5em;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 0px 100px;
+    margin: 10px 50px 0px 50px;
+}
+
+.social h3 {
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.picslide {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.frenchise-div1 {
+    padding: 50px 100px;
+    background-color: rgba(255, 255, 255, 0.06);
+    position: relative;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-img2 {
+    left: 32px;
+    top: 32px;
+    position: absolute;
+}
+
+.mainfoot {
+    display: flex;
+    width: 30%;
+    position: relative;
+
+}
+
+.footer-logo {
+
+    margin-bottom: 10px;
+}
+
+.mainfoot p {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.linksinfo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.term-condition {
+    padding-right: 20px;
+}
+
+.linksinfo li a {
+    color: rgba(255, 255, 255, 0.6) !important;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.site-div {
+    color: white;
+    width: 20%;
+    padding: 0px 30px 0px 60px;
+}
+
+.site-div h4 {
+    font-size: 20px;
+}
+
+.siteul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.siteul li {
+    padding-bottom: 16px;
+}
+
+.siteul li a {
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.contactus {
+    width: 30%;
+    padding: 0 30px;
+}
+
+.contactus h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.footer {
+    width: 20%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.followus h4 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.socialicons a img {
+    border: 1px solid black;
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+    margin: 10px 2px 20px 0px;
+
+}
+
+.google-appstore a img {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    width: 160px;
+}
+
+.container {
+    border-top: 2px solid rgba(255, 255, 255, 0.171) !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.copyright span {
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.388);
+}
+
+.copyright {
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.textright span {
+    color: rgba(255, 255, 255, 0.568);
+}
+
+.textright a {
+    color: rgba(255, 255, 255, 0.568);
+    text-decoration: none;
+}
+
+.textright {
+    padding-right: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+}
